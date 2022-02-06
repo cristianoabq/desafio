@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCv78RZumPjq4FhTHaG47Yt9j-2iUHasAU"/>
+
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:name="com.gs3.desafio.MainActivity"
@@ -33,6 +37,11 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths"></meta-data>
         </provider>
+
+
+<!--        <meta-data-->
+<!--          android:name="com.google.android.geo.API_KEY"-->
+<!--          android:value="MAPS_API_KEY"/>-->
     </application>
 
     <!-- Permissions -->

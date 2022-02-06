@@ -1,18 +1,25 @@
 import { Component } from '@angular/core';
+import { MenuController } from '@ionic/angular';
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+
+  constructor(private menu: MenuController) { }
+
+  // openFirst() {
+  //   this.menu.enable(true, 'start');
+  //   this.menu.open('start');
+  // }
+
   public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'App 1', url: '/camera', icon: 'camera' },
+    { title: 'App 2', url: '/mapa', icon: 'earth' },
+    { title: 'App 3', url: '/chat', icon: 'person' },
+
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
-  constructor() {}
+ //constructor() {}
 }

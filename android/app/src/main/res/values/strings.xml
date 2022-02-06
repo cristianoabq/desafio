@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">desafio</string>
+    <string name="title_activity_main">desafio</string>
+    <string name="package_name">com.gs3.desafio</string>
+    <string name="custom_url_scheme">com.gs3.desafio</string>
+</resources>
