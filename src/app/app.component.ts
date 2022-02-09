@@ -16,9 +16,9 @@ export class AppComponent {
   // }
 
   public appPages = [
-    { title: 'App 1', url: '/camera', icon: 'camera' },
-    { title: 'App 2', url: '/mapa', icon: 'earth' },
-    { title: 'App 3', url: '/chat', icon: 'person' },
+    { title: 'App 1 - Camera', url: '/camera', icon: 'camera' },
+    { title: 'App 2 - Mapa', url: '/mapa', icon: 'earth' },
+    { title: 'App 3 - Chat', url: '/chat', icon: 'person' },
 
   ];
  //constructor() {}
